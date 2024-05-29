@@ -1,0 +1,28 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    flex-direction: column;
+    background-color: rgb(185, 214, 127);
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.flex-row {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+#secretMessage {
+    display: none;
+}
+
+.buttons1 {
+    background-color: rgb(177, 148, 32);
+}
